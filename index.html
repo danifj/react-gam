@@ -7,6 +7,27 @@
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+
+    <style>
+        .fade-enter{
+            opacity: 0;
+        }
+
+        .fade-enter-active{
+            opacity: 1;
+            transition: opacity 3000ms ease-out;
+        }
+
+        .fade-leave{
+            opacity: 1;
+        }
+
+        .fade-leave-active{
+            opacity: 0;
+            transition: opacity 3000ms ease-out;
+        }
+    </style>
+
 </head>
 <body>
     <div id="app"></div>
